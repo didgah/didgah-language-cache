@@ -1,0 +1,28 @@
+{
+  "name": "didgah-language-cache",
+  "version": "0.0.1",
+  "description": "A simple cache layer for translation purpose.",
+  "main": "./build/didgah-language.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/didgah/didgah-language-cache.git"
+  },
+  "author": "Ehssan Majdabadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/didgah/didgah-language-cache/issues"
+  },
+  "homepage": "https://github.com/didgah/didgah-language-cache#readme",
+  "dependencies": {
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.1.3",
+    "webpack": "^4.8.3"
+  }
+}

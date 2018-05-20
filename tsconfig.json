@@ -1,0 +1,19 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es5",
+        "module": "esnext",
+        "declaration": false,
+        "noImplicitAny": false,
+        "experimentalDecorators": true,
+        "noLib": false,
+        "jsx": "react",
+        "noEmitOnError": true,
+        "moduleResolution": "node"
+    },
+    "exclude": [
+        "node_modules",
+        "static"
+    ]
+}
