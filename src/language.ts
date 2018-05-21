@@ -1,6 +1,4 @@
-import { LanguageEX } from 'didgah/global';
-
-
+var LanguageEX = window['LanguageEX'];
 class Cache {
 	static languageCache: { key: string; value: string }[] = [];
 
