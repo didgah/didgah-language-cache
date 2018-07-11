@@ -1,6 +1,6 @@
 {
   "name": "didgah-language-cache",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple cache layer for translation purpose.",
   "main": "./build/didgah-language.js",
   "scripts": {
