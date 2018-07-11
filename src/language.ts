@@ -1,4 +1,3 @@
-var LanguageEX = window['LanguageEX'];
 class Cache {
 	static languageCache: { key: string; value: string }[] = [];
 
@@ -8,7 +7,7 @@ class Cache {
 			return cachedItem.value;
 		}
 
-		const translatedValue = LanguageEX.GetString(key, softwareGuid);
+		const translatedValue = window['LanguageEX'].GetString(key, softwareGuid);
 		Cache.languageCache.push({
 			key,
 			value: translatedValue
