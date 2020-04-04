@@ -1,6 +1,6 @@
 {
   "name": "didgah-language-cache",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A simple cache layer for translation purpose.",
   "main": "./build/didgah-language.js",
   "scripts": {
@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/didgah/didgah-language-cache#readme",
   "dependencies": {
-    "ts-loader": "4.3.0",
-    "typescript": "2.8.3"
-  },
+	},
   "devDependencies": {
+		"ts-loader": "4.3.0",
+		"typescript": "2.8.3",
     "webpack-cli": "2.1.3",
     "webpack": "4.8.3"
   }
